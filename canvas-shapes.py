@@ -1,0 +1,12 @@
+import tkinter as tk 
+top=tk.Tk() 
+top.title("Geometrical figures") 
+canvas=tk.Canvas(top,bg='white',height=700,width=1400) 
+canvas.create_rectangle(330,500,830,50,outline='black',fill='red',width=7) 
+canvas.create_line(920,300,1250,300,fill='black',width=10) 
+canvas.create_oval(10,50,290,500,outline='black',fill='orange',width=7) 
+canvas.create_text(700,20,text='Ritwika',fill='black',font='bold') 
+canvas.create_text(140,550,text='OVAL',fill='black',font='bold') 
+canvas.create_text(550,550,text='RECTaNGLE',fill='black',font='bold') 
+canvas.create_text(1100,350,text='LINE',fill='black',font='bold') 
+canvas.pack() 
